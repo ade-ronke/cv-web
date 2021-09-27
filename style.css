@@ -1,0 +1,190 @@
+/*color palette
+https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
+
+#707070-
+#F7FFF7 - almost white
+#3D3D3D - dark gray - almost black
+#2F3061 - blue dark
+#FFE66D - yellow
+#A1C6D7 - blue light
+
+*/
+
+html{
+  
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  body {
+    color: hsl(0, 0%, 20%);
+    padding: 0;
+    margin: 0;
+    font-family: "Monteserrat", sans-serif;
+  }
+  
+  .content-wrap{
+    background-color:#2F3061;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    font-family: "caveat", cursive;
+    height: 450px;
+    padding-top: 20px;
+    letter-spacing: 2px;
+    transform: translateX(-1500px);
+    animation-name: top;
+    animation-duration: 2s;
+    animation-timing-function:linear;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+  }
+  @media (max-width: 375px) {
+    .content-wrap{
+      color: black;
+      text-align: center;
+      font-size: 0.5em;
+      font-family: "caveat", cursive;
+      height: 250px;
+      padding-top: 20px;
+      letter-spacing: 0.5px;
+      width: 100%;
+      line-height: px;
+      }
+      .name{
+        font-size: 15px;
+      }
+      .sub-title{
+        font-size:13px;
+       
+      }
+      .cntact{
+        padding-top: 15px;
+        letter-spacing:none;
+      }
+      .cntact h3{
+        font-size: 10px;
+      }
+      .content-wrap h3{
+        font-size: 10px;
+      }
+    }
+  
+  .content-wrap h4{
+    line-height:200%
+  }
+  .content-wrap a{
+    text-decoration: none;
+  }
+  .content-wrap a:hover{
+    text-decoration:underline;
+  }
+  
+  @keyframes top{
+    
+    from {transform:translateX(-1500px)}
+  
+    to {transform:translateX(0px)}
+  }
+  
+  .content{
+    font-size: 1.2em;
+    height: 350px;
+    padding-top: 20px;
+  }
+  .content p{
+    padding-top: 20px;
+    line-height:150%;
+  }
+  
+  .job{
+    background-color:lightblue;
+    }
+  .wrap-content{
+    
+    padding-top :2em;
+    max-width: 50rem;
+    width: 85%;
+    
+    margin: 0 auto;
+    padding: 2rem 0;
+  }
+  
+  h2{
+    font-size:1.3em;
+    font-family: "caveat", cursive;
+    line-height:150%;
+  }
+  
+  h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0;
+    line-height:150%;
+  }
+  h4 {
+    font-size: 16px;
+    line-height:80%;
+    margin-top:30px;
+  }
+  h4 a {
+    font-size: 15px;
+    line-height:90%;
+    
+  }
+  h5 {
+    font-size: 15px;
+    margin-top: 20px;
+  }
+  
+  .job-items h4 + p{
+    font-style: italic;
+  }
+  
+  .job-items h3 ~ p{
+    margin: 0;
+  }
+  
+  .job-details {
+    display: grid;
+    grid-template-columns:1fr 2fr ;
+    column-gap: 1.2em;
+  }
+  
+  .education{
+    background-color:#F7FFF7;
+  }
+  
+  a {
+    color: #ffe66d;
+    text-decoration: none;
+    display:inline-block;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .item-details{
+    line-height:1.5em;
+  }
+  
+  footer {
+    background: #3D3D3D;
+    color: #f7fff7;
+    text-align: center;
+    height: 250px;
+  }
+  
+  .contact-list {
+    list-style-type: none;
+    letter-spacing: 3px;
+    }
+    .socials{
+      line-height:1.5em;
+      display:inline-block;
+    }
+  
+  
+  
